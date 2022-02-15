@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Concreate.Writer
+@{
+    ViewBag.Title = "GetWriterList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>GetWriterList</h2>
+
+@using (Html.BeginForm("GetCategory", "Writer", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.Label("Yazar ID")
+        @Html.TextBoxFor(x=>x.WriterID,new { @class= "form-control" })
+        <br />
+        @Html.Label("Yazar Adı")
+        @Html.TextBoxFor(x=>x.WriterName,new { @class = "form-control" })
+
+    </div>
+}

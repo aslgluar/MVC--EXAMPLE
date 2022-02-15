@@ -1,0 +1,26 @@
+﻿@model EntityLayer.Concreate.Heading
+@{
+    ViewBag.Title = "AddHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("AddHeading", "Heading", FormMethod.Post))
+{
+    <h2>AddHeading</h2>
+    <div class="form-group">
+
+        @Html.Label("Başlık Adı")
+        @Html.TextBoxFor(x =>x.HeadingName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.HeadingName)
+        <br />
+        @Html.Label("Kategori ")
+        @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.categ_value,new { @class = "form-control" })
+        <br />
+        @Html.Label("Yazar ")
+        @Html.DropDownListFor(x => x.WriterID,(List<SelectListItem>)ViewBag.writer_value, new { @class = "form-control" })
+        <br />
+    </div>
+    <button class="btn btn-success">Başlık Oluştur </button>
+
+}
+
