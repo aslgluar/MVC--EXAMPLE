@@ -9,7 +9,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EFCategoryDAL:GenericRepository<Category>,ICategoryDAL
+    public class EFCategoryDAL : GenericRepository<Category>, ICategoryDAL
     {
+        void ICategoryDAL.delete2()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

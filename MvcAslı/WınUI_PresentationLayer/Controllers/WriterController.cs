@@ -14,6 +14,8 @@ using FluentValidation;
 
 namespace WınUI_PresentationLayer.Controllers
 {
+    [AllowAnonymous]
+
     public class WriterController : Controller
     {
         WriterManager writerManager = new WriterManager(new EFWriterDAL());

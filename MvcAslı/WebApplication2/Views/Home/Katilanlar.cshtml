@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebApplication2.Models.DavetiyeModel>
+
+@if (Model.Count() == 1) 
+{
+    <p>Partiye gelen ilk kişi sensin</p>
+} 
+else   
+{
+<p>
+
+        @foreach (var i in Model)
+        {
+            <label class="col-form-label label-success">@i.Ad</label>
+        }
+
+</p>
+}

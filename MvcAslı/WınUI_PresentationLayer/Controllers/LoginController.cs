@@ -12,7 +12,7 @@ using System.Web.Security;
 
 namespace WınUI_PresentationLayer.Controllers
 {
-    //[AllowAnonymous]
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         WriterLoginManager loginmanager = new WriterLoginManager(new EFWriterDAL());
@@ -50,7 +50,9 @@ namespace WınUI_PresentationLayer.Controllers
         [HttpPost]
         public ActionResult WriterLogin(Writer p)
         {
-            //Context c = new Context();
+            using (Context c = new Context())
+            {
+            }
 
             //var WriterUserInfo = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail &&
             //x.WriterPassword == p.WriterPassword);

@@ -13,7 +13,7 @@ using FluentValidation.Results;
 namespace WınUI_PresentationLayer.Controllers
 {
 
- 
+    [AllowAnonymous]
     public class CategoryController : Controller
     {
         CategoryManager cm = new CategoryManager(new EFCategoryDAL());//artık ef dal dan interface alacak bagımlılıkları parçalıyoruz

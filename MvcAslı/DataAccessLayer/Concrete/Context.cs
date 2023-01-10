@@ -25,7 +25,7 @@ namespace DataAccessLayer.Concreate
         public DbSet<Message> Messages { get; set; }
         public DbSet<ImageFile> ımageFiles { get; set; }
         public DbSet<Admin> Admins { get; set; }
-
+        public DbSet<Comment> Comments { get; set; }
 
 
 

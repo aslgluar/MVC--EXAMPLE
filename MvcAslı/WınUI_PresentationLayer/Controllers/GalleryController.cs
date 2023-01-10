@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace WınUI_PresentationLayer.Controllers
 {
+    [AllowAnonymous]
     public class GalleryController : Controller
     {
         // GET: Gallery

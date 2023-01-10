@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{BCD2706F-02A2-4EB2-AA7B-1D1EC2D22AFA}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLayer", "BussinessLayer\BussinessLayer.csproj", "{687C6D2D-CBD4-406E-9C04-E562439AB8CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WınUI_PresentationLayer", "WınUI_PresentationLayer\WınUI_PresentationLayer.csproj", "{E29EAA8E-86CE-4BE3-BB04-32B717882C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Layer", "Api_Layer\Api_Layer.csproj", "{6DFD2E69-6EF6-4B87-911E-3E1BBDD40349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{2CBCF3A8-6B87-4A2D-9C04-3682CC586AAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E29EAA8E-86CE-4BE3-BB04-32B717882C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29EAA8E-86CE-4BE3-BB04-32B717882C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29EAA8E-86CE-4BE3-BB04-32B717882C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFD2E69-6EF6-4B87-911E-3E1BBDD40349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFD2E69-6EF6-4B87-911E-3E1BBDD40349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFD2E69-6EF6-4B87-911E-3E1BBDD40349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFD2E69-6EF6-4B87-911E-3E1BBDD40349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBCF3A8-6B87-4A2D-9C04-3682CC586AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBCF3A8-6B87-4A2D-9C04-3682CC586AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBCF3A8-6B87-4A2D-9C04-3682CC586AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBCF3A8-6B87-4A2D-9C04-3682CC586AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

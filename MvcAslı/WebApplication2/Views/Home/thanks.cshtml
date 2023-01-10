@@ -1,0 +1,18 @@
+﻿@model WebApplication2.Models.DavetiyeModel
+
+
+<h1>Teşekkürler, @Model.Ad</h1>
+
+<div class="lead">
+    @if (Model.KatilmaDurumu == true)
+    {
+        @:Gelmene çok sevindim :)
+        @Html.ActionLink("katılanlar listesi", "Katilanlar", "Home",
+    new { target ="_blank" ,name = "link",style ="color : red"})
+     
+    }
+    else
+    {
+        @:Gelemeyecek olmana cok üzüldüm:(
+    }
+</div>

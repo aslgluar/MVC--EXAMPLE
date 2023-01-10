@@ -1,0 +1,27 @@
+﻿@model WebApplication2.Models.DavetiyeModel
+
+@using (Html.BeginForm())
+{
+    
+    <div class="form-group">
+        <label>Ad:</label>
+        @Html.TextBoxFor(x=>x.Ad, new {@class = "form-control"})
+    </div>
+    <div class="form-group">
+        <label>E-posta:</label>
+        @Html.TextBoxFor(x=>x.Eposta, new {@class = "form-control"})
+    </div>
+
+    <div class="form-group">
+        <label>katılacak mısın </label>
+        @Html.DropDownListFor(x=>x.KatilmaDurumu,new[]{
+            new SelectListItem() {Text = "evet,geliyorum",
+            Value = bool.TrueString},
+            new SelectListItem() {Text = "hayır,gelmeyeceğm",
+            Value = bool.FalseString}
+        },"geliyor musun ?", new {@class = "form-control"})
+    </div>
+    <div class="text-center">
+        <input class="btn btn-success" type="submit" value="gönder"> 
+    </div>
+}

@@ -11,6 +11,7 @@ namespace DataAccessLayer.Concreate.Repositories
 {
     public class GenericRepository<T> : IRepository<T> where T : class
     {
+
         Context c = new Context();
 
         DbSet<T> _object;//T degerine karsılık gelencsınıfı tutar
@@ -41,6 +42,7 @@ namespace DataAccessLayer.Concreate.Repositories
 
         public List<T> list()
         {
+
             return _object.ToList();
         }
 

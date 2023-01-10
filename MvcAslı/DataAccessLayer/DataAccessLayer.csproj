@@ -76,61 +76,9 @@
     <Compile Include="EntityFramework\EFImageDAL.cs" />
     <Compile Include="EntityFramework\EFMessageDAL.cs" />
     <Compile Include="EntityFramework\EFWriterDAL.cs" />
-    <Compile Include="Migrations\202112140625170_mig.cs" />
-    <Compile Include="Migrations\202112140625170_mig.designer.cs">
-      <DependentUpon>202112140625170_mig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202112140751375_m1.cs" />
-    <Compile Include="Migrations\202112140751375_m1.designer.cs">
-      <DependentUpon>202112140751375_m1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201201916185_mig_writer_down.cs" />
-    <Compile Include="Migrations\202201201916185_mig_writer_down.designer.cs">
-      <DependentUpon>202201201916185_mig_writer_down.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201202027304_mig_writer_edit.cs" />
-    <Compile Include="Migrations\202201202027304_mig_writer_edit.designer.cs">
-      <DependentUpon>202201202027304_mig_writer_edit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201221842464_mig_add_writertittle.cs" />
-    <Compile Include="Migrations\202201221842464_mig_add_writertittle.designer.cs">
-      <DependentUpon>202201221842464_mig_add_writertittle.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201242041196_mig_image_size_edit.cs" />
-    <Compile Include="Migrations\202201242041196_mig_image_size_edit.designer.cs">
-      <DependentUpon>202201242041196_mig_image_size_edit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201242107367_mig_add_writer_status.cs" />
-    <Compile Include="Migrations\202201242107367_mig_add_writer_status.designer.cs">
-      <DependentUpon>202201242107367_mig_add_writer_status.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201251040260_mig-change-type-contentdate.cs" />
-    <Compile Include="Migrations\202201251040260_mig-change-type-contentdate.designer.cs">
-      <DependentUpon>202201251040260_mig-change-type-contentdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201251109364_mig-addcontent-status.cs" />
-    <Compile Include="Migrations\202201251109364_mig-addcontent-status.designer.cs">
-      <DependentUpon>202201251109364_mig-addcontent-status.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201251112444_mig-addheadingstatus.cs" />
-    <Compile Include="Migrations\202201251112444_mig-addheadingstatus.designer.cs">
-      <DependentUpon>202201251112444_mig-addheadingstatus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201261126185_add-message_class.cs" />
-    <Compile Include="Migrations\202201261126185_add-message_class.designer.cs">
-      <DependentUpon>202201261126185_add-message_class.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201262052161_addcontactdate.cs" />
-    <Compile Include="Migrations\202201262052161_addcontactdate.designer.cs">
-      <DependentUpon>202201262052161_addcontactdate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201271921489_add-ımagefile.cs" />
-    <Compile Include="Migrations\202201271921489_add-ımagefile.designer.cs">
-      <DependentUpon>202201271921489_add-ımagefile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202201272016238_add-adminclass.cs" />
-    <Compile Include="Migrations\202201272016238_add-adminclass.designer.cs">
-      <DependentUpon>202201272016238_add-adminclass.cs</DependentUpon>
+    <Compile Include="Migrations\202301070937249_initialize-database.cs" />
+    <Compile Include="Migrations\202301070937249_initialize-database.designer.cs">
+      <DependentUpon>202301070937249_initialize-database.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -149,47 +97,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202112140625170_mig.resx">
-      <DependentUpon>202112140625170_mig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202112140751375_m1.resx">
-      <DependentUpon>202112140751375_m1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201201916185_mig_writer_down.resx">
-      <DependentUpon>202201201916185_mig_writer_down.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201202027304_mig_writer_edit.resx">
-      <DependentUpon>202201202027304_mig_writer_edit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201221842464_mig_add_writertittle.resx">
-      <DependentUpon>202201221842464_mig_add_writertittle.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201242041196_mig_image_size_edit.resx">
-      <DependentUpon>202201242041196_mig_image_size_edit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201242107367_mig_add_writer_status.resx">
-      <DependentUpon>202201242107367_mig_add_writer_status.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201251040260_mig-change-type-contentdate.resx">
-      <DependentUpon>202201251040260_mig-change-type-contentdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201251109364_mig-addcontent-status.resx">
-      <DependentUpon>202201251109364_mig-addcontent-status.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201251112444_mig-addheadingstatus.resx">
-      <DependentUpon>202201251112444_mig-addheadingstatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201261126185_add-message_class.resx">
-      <DependentUpon>202201261126185_add-message_class.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201262052161_addcontactdate.resx">
-      <DependentUpon>202201262052161_addcontactdate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201271921489_add-ımagefile.resx">
-      <DependentUpon>202201271921489_add-ımagefile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202201272016238_add-adminclass.resx">
-      <DependentUpon>202201272016238_add-adminclass.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301070937249_initialize-database.resx">
+      <DependentUpon>202301070937249_initialize-database.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
